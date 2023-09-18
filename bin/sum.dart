@@ -4,5 +4,5 @@ void main()
   int b=10;
 
   print("sum=${a+b}");
-  print("diffrence")
+  print("diffrence=${a-b}");
 }
