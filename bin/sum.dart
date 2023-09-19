@@ -5,4 +5,6 @@ void main()
 
   print("sum=${a+b}");
   print("diffrence=${a-b}");
+  print("division =${a/b}");
+  print("multiple=${a*b}");
 }
