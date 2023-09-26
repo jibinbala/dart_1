@@ -2,11 +2,9 @@ void main()
 {
   int age = 17;
   //simple if
-  if(age>=18) {
-    print("welcomr to vote");
-  }else{
-    print("not rligiblr to vote");
-  }
+  if(age>=18)
+  {print("welcomr to vote");}
+  else{print("not rligiblr to vote");}
   print("-----------------------------------------------------------");
 }
 

@@ -26,7 +26,7 @@ void main()
   print("student 1 course = ${students.course }");
 
 
-  print("------------------------------------------------------------");
+  print("------------------------------------------------------------")
 
   students st2 = students();
   print("student 2 name = ${st2.name = "anu"}");
