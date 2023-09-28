@@ -55,6 +55,32 @@ void main()
   print(set4.difference(set5));
   print(set5.difference(set4));
 
+  print("-------------------------------------------------------");
+  ///map -store values as key - value pairs ,keys must be unique values can be same or different
+  ///Map<key,value>
+  Map<String,dynamic> map1 ={"name" : "jibin" ,"age" :23 ,"mark":6.5};
+  print(map1);
+  map1.addAll({"email" : "jibinep36@gmail.com"});
+  print(map1);
+  map1["pincode"] = 676501;
+  print(map1);
+  map1["age"]=22;
+  print(map1);
+
+
+  print("-----------------------------------------------");
+
+  map1.forEach((key, value) {
+    print("$key : $value");
+  });
+
+
+
+
+  print(map1.containsKey("hello"));
+  print(map1.containsValue(32));
+
+
 
 
 
