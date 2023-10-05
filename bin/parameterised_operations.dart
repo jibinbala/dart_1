@@ -2,7 +2,7 @@ void main(){
   func(10, 20);
   func1(1,"hello");
   func2("hai" , b : 20 , a : "welcome");
-  func2("hooi",a : "there",b:15 , c:15);
+  func2("hooi",a : "there",b:15);
   func3("good", b: 30, a: "rest");
   func4("jibin", a: "what");
   user("jibin", age: 23, phonenumber: "91888800898");
@@ -70,7 +70,7 @@ void user(String name,{required int age,required String phonenumber,String? pinc
   print("age = $age");
   print("phonenumber = $phonenumber");
   if (pincode == null) {
-    print("c = no data");
+    print("pincode = no data");
   } else {
     print("pincode = $pincode");
   }
