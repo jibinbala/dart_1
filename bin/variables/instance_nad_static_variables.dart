@@ -26,7 +26,7 @@ void main()
   print("student 1 course = ${students.course }");
 
 
-  print("------------------------------------------------------------")
+  print("------------------------------------------------------------");
 
   students st2 = students();
   print("student 2 name = ${st2.name = "anu"}");
@@ -34,4 +34,5 @@ void main()
   print("student 2 email = ${st2.email = "jnanumail.com"}");
   print("student 2 phone = ${st2.phone = 91888008888}");
   print("student 2 qualification = ${st2.qualification = "btech"}");
+  print("student 2 course = ${students.course }");
 }
